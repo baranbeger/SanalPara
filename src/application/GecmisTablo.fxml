@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="424.0" prefWidth="418.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="application.GecmisTabloController">
+   <children>
+      <TableView fx:id="tablo" layoutX="109.0" layoutY="64.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="ad" prefWidth="105.0" text="coin ismi" />
+          <TableColumn fx:id="islem" prefWidth="45.0" text="işlem" />
+            <TableColumn fx:id="miktar" prefWidth="75.0" text="miktar" />
+            <TableColumn fx:id="fiyat" prefWidth="75.0" text="fiyat" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

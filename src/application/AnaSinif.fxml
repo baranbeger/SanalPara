@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="367.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AnaSinifController">
+   <children>
+      <JFXButton fx:id="girisBtnTxt" layoutX="60.0" layoutY="102.0" onAction="#girisBtn" prefHeight="189.0" prefWidth="112.0" ripplerFill="#1f1990" text="Kullanıcı girişi" textFill="#a11c1c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="kayitBtnTxt" layoutX="209.0" layoutY="102.0" onAction="#kayitButton" prefHeight="189.0" prefWidth="104.0" ripplerFill="#492a94" text="Kullanıcı kayıt" textFill="#ae2121">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="girisAd" layoutX="209.0" layoutY="116.0" prefHeight="25.0" prefWidth="174.0" promptText="Kullanıcı adınızı giriniz" visible="false" />
+      <TextField fx:id="girisSifre" layoutX="209.0" layoutY="171.0" prefHeight="25.0" prefWidth="174.0" promptText="Şifrenizi giriniz" visible="false" />
+      <TextField fx:id="kayitAd" layoutX="23.0" layoutY="129.0" promptText="Kullanıcı adını gir" visible="false" />
+      <TextField fx:id="kayitSifre" layoutX="23.0" layoutY="184.0" promptText="Şifreni gir" visible="false" />
+      <TextField fx:id="kayitSifreTekrar" layoutX="23.0" layoutY="240.0" promptText="Şifreni tekrar gir" visible="false" />
+      <TextField fx:id="kayitMail" layoutX="23.0" layoutY="77.0" promptText="Mailinizi giriniz:" visible="false" />
+      <JFXButton fx:id="btnGirisTxt" layoutX="60.0" layoutY="320.0" onAction="#btnGirisBtn" ripplerFill="#941977" text="Onayla" textFill="#831b1b" />
+      <JFXButton fx:id="btnKayitTxt" layoutX="250.0" layoutY="320.0" onAction="#btnKayitBtn" ripplerFill="#941977" text="Onayla" textFill="#831b1b" />
+   </children>
+</AnchorPane>
